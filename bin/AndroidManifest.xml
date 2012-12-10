@@ -7,13 +7,14 @@
         android:minSdkVersion="3"
         android:targetSdkVersion="15" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".AndoroidBasicsStarter"
+            android:name=".ActivitySelect"
             android:label="@string/title_activity_andoroid_basics_starter" android:configChanges="keyboard|keyboardHidden|orientation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity android:name="AndoroidBasicsStarter"
+            	  android:label=".Andoroid Basics Starter"
+            	  android:configChanges="keyboard|keyboardHidden|orientation"></activity>
         <activity android:name="LifeCycleTest"
             	  android:label="Life Cycle Test"
             	  android:configChanges="keyboard|keyboardHidden|orientation"></activity>
@@ -42,7 +47,67 @@
         <activity android:name="ExternalStorageTest"
             	  android:label="External Storage Test"
             	  android:configChanges="keyboard|keyboardHidden|orientation"></activity>
-        
+        <activity android:name="SoundPoolTest"
+            	  android:label="Sound Pool Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation"></activity>
+        <activity android:name="MediaPlayerTest"
+            	  android:label="Media Player Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation"></activity>
+        <activity android:name="FullScreenTest"
+            	  android:label="Full Screen Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+         <activity android:name="RenderViewTest"
+            	  android:label="Render View Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+          <activity android:name="ShapeTest"
+            	  android:label="Shape Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+          <activity android:name="BitmapTest"
+            	  android:label="Bitmap Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+          <activity android:name="FontTest"
+            	  android:label="Font Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+          <activity android:name="SurfaceViewTest"
+            	  android:label="Surface View Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+          <activity android:name="PixcelTest"
+            	  android:label="Pixcel Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+        <activity android:name=".glbasics.GLBasicsStarterActivity"
+            	  android:label="GLBasics Starter Activity"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+        <activity android:name=".glbasics.GLsurfaceViewTest"
+            	  android:label="GLsurface View Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+        <activity android:name=".glbasics.GLGameTest"
+            	  android:label="GL Game Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+        <activity android:name=".glbasics.FirstTriangleTest"
+            	  android:label="First Triangle Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+        <activity android:name=".glbasics.ColoredTriangleScrren"
+            	  android:label="Colored Triangle Scrren"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+        <activity android:name=".glbasics.TexturedTriangleScreen"
+            	  android:label="Colored Triangle Scrren"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+         <activity android:name=".glbasics.IndexedTest"
+            	  android:label="Indexed Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+         <activity android:name=".glbasics.BlendingScreenTest"
+            	  android:label="Blending Screen Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+        <activity android:name=".glbasics.ReimuTest"
+            	  android:label="Reimu Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".glbasics.OptimizationReimuTest"
+            	  android:label="Optimization Reimu Test"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".glbasics.BenchMarkActivity"
+            	  android:label="BenchMark"
+            	  android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="portrait"></activity>
+    	
     </application>
 
 </manifest>

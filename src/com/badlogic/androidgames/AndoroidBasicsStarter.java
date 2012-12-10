@@ -13,7 +13,9 @@ public class AndoroidBasicsStarter extends ListActivity {
 	
 	//文字列を追加するとリストに表示され　クリックでそのActivityへ飛ぶ
 	String tests[] = {"LifeCycleTest","SingleTouchTest","MultiTOuchTest","KeyTset","AcceleremoterTest"
-			,"LifeCycleTest","SingleTouchTest","MultiTouchTest","KeyTest","AccelerometerTest","AssetsTest","ExternalStorageTest"};
+			,"LifeCycleTest","SingleTouchTest","MultiTouchTest","KeyTest","AccelerometerTest",
+			"AssetsTest","ExternalStorageTest","SoundPoolTest","MediaPlayerTest","FullScreenTest",
+			"RenderViewTest","ShapeTest","BitmapTest","FontTest","SurfaceViewTest","PixcelTest"};
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
